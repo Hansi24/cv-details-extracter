@@ -118,10 +118,10 @@ const JobApplicationForm = () => {
           </div>
 
           <div>
-            <label className="block text-gray-700">Upload CV (PDF/DOCX)</label>
+            <label className="block text-gray-700">Upload CV (PDF)</label>
             <input
               type="file"
-              accept=".pdf,.doc,.docx"
+              accept=".pdf"
               {...register("cv", { required: "CV is required" })}
               className="w-full border rounded p-2"
             />
