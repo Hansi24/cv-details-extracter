@@ -90,7 +90,7 @@ app.post("/api/update/application", async (req: any, res: any) => {
     const metaData = {
       "applicant_name": document.name,
       "email": document.email,
-      "status": "testing",
+      "status": "prod",
       "cv_processed": document.status === "PROCESSED",
       "processed_timestamp": document.createdAt,
     };
