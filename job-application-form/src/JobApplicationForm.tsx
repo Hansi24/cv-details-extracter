@@ -45,7 +45,7 @@ const JobApplicationForm = () => {
           {
             contentType: file.type,
             applicationId: applicationId,
-            callbackUrl: "https://aa6f-2402-d000-813c-74f0-41c3-6110-136f-ddf9.ngrok-free.app/api/update/application",
+            callbackUrl: "https://cv-details-extracter.onrender.com/api/update/application",
           },
           {
             headers: {
