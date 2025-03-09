@@ -28,7 +28,7 @@ const JobApplicationForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/add/application",
+        "https://cv-details-extracter.onrender.com/api/add/application",
         {
           name: data.name,
           email: data.email,
