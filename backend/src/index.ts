@@ -30,6 +30,9 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
     .json({ error: err.message || "Internal Server Error" });
 });
 
+app.get("/api/test", (req: Request, res: Response) => {
+  res.send("API is running....");
+});
 // Route to Add a Job Application
 app.post("/api/add/application", async (req: any, res: any) => {
   try {
