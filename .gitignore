@@ -1,2 +1,4 @@
 job-application-form/node_modules
 backend/node_modules
+/job-application-form/.env
+/backend/.env
